@@ -3,41 +3,6 @@
 @tailwind utilities;
 
 a {
-  @apply text-blue-500 hover:text-blue-400 hover:underline transition-all;
-  .container {  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 10% 1fr 15%;
-  grid-auto-rows: 1fr;
-  gap: 10px 10px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "header header header"
-    "main main aside"
-    "footer footer footer";
-}
 
-.header { grid-area: header; }
-
-.footer { grid-area: footer; }
-
-.aside { grid-area: aside; }
-
-.main {  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "section-1 section-1 section-1"
-    "section-2 section-2 section-2"
-    "section-3 section-3 section-3";
-  grid-area: main;
-}
-
-.section-1 { grid-area: section-1; }
-
-.section-2 { grid-area: section-2; }
-
-.section-3 { grid-area: section-3; }
-
+  
 }
