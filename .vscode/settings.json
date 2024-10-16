@@ -9,5 +9,13 @@
   "editor.quickSuggestions": {
     "strings": true
   },
-  "cSpell.ignoreWords": ["Dayz", "bdaf", "edede", "tailwindcss", "vitawind"]
+  "cSpell.ignoreWords": [
+    "Avenir",
+    "Dayz",
+    "bdaf",
+    "edede",
+    "kanakas",
+    "tailwindcss",
+    "vitawind"
+  ]
 }
